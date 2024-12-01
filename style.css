@@ -1,0 +1,87 @@
+/* Resetting some default styles for cleaner layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;  /* Light blue background */
+    color: #333;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for the entire app */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Header Styling */
+h1 {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+/* Styling for the category selection */
+label {
+    font-size: 1rem;
+    margin-right: 10px;
+    color: #555;
+}
+
+select {
+    padding: 8px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Styling for the Get Joke button */
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Styling for the joke display */
+h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+    min-height: 50px;
+    line-height: 1.6;
+    word-wrap: break-word;
+}
+
+/* Error message */
+#joke {
+    color: #f44336;  /* Red color for error */
+}
